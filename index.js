@@ -19,7 +19,7 @@ app.post("/", async (req, res) => {
   let text = req.body;
   console.log(text);
 
-  fs.appendFileSync('data.json', JSON.stringify(text));
+  // fs.appendFileSync('data.json', JSON.stringify(text));
 
 
   res.json("aaa");
